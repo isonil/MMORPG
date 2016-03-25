@@ -9,13 +9,19 @@ The project consists of 5 sub-projects:
 - Updater
 
 # Screenshots - client
-<img src="x">
+<img src="http://i.imgur.com/0x3UTn8.png">
+<img src="http://i.imgur.com/PflwMm9.png">
+<img src="http://i.imgur.com/A9vXEvS.png">
+<img src="http://i.imgur.com/RIyuSjX.png">
+<img src="http://i.imgur.com/xCNbo5O.png">
 
 # Screenshots - editor
-<img src="x">
+<img src="http://i.imgur.com/EcBbTgv.png">
+<img src="http://i.imgur.com/jXSrsGv.png">
+<img src="http://i.imgur.com/u7ZHBvE.png">
 
 # Screenshots - launcher
-<img src="x">
+<img src="http://i.imgur.com/IyJhqce.png">
 
 # Libraries used
 - SFML
