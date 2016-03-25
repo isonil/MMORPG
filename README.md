@@ -17,6 +17,7 @@ The project consists of 5 sub-projects:
 
 # Screenshots - editor
 <img src="http://i.imgur.com/EcBbTgv.png">
+<img src="http://i.imgur.com/t9PPn7y.png">
 <img src="http://i.imgur.com/jXSrsGv.png">
 <img src="http://i.imgur.com/u7ZHBvE.png">
 
