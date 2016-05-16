@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="EditorFrame">
+		<title>Editor</title>
+		<size>1025,700</size>
+		<fg>#000000</fg>
+		<bg>#EEEEEE</bg>
+		<id_arg>0</id_arg>
+		<handler function="OnSetFocus" entry="EVT_SET_FOCUS" />
+		<object class="wxAuiManager" variable="AuiManager1" member="yes">
+			<object class="AuiManagerItem">
+				<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+					<pos>84,147</pos>
+					<size>290,247</size>
+					<minsize>300,300</minsize>
+					<object class="wxFlexGridSizer" variable="FlexGridSizer2" member="no">
+						<cols>1</cols>
+						<growablecols>0</growablecols>
+						<growablerows>0</growablerows>
+						<object class="sizeritem">
+							<object class="Custom" name="ID_CUSTOM1" subclass="WorldRenderCanvas" variable="Custom1" member="yes">
+								<creating_code>$(THIS) = new $(CLASS)($(PARENT),$(ID),$(POS),$(SIZE),0,wxDefaultValidator,$(NAME));</creating_code>
+								<style></style>
+								<handler function="OnCustom1KeyUp" entry="EVT_KEY_UP" />
+								<handler function="OnCustom1SetFocus" entry="EVT_SET_FOCUS" />
+								<handler function="OnCustom1KillFocus" entry="EVT_KILL_FOCUS" />
+								<handler function="OnCustom1LeftDown" entry="EVT_LEFT_DOWN" />
+								<handler function="OnCustom1RightDown" entry="EVT_RIGHT_DOWN" />
+							</object>
+							<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxFlexGridSizer" variable="FlexGridSizer9" member="no">
+								<cols>2</cols>
+								<growablecols>0</growablecols>
+								<object class="sizeritem">
+									<object class="wxFlexGridSizer" variable="FlexGridSizer11" member="no">
+										<object class="sizeritem">
+											<object class="wxCheckBox" name="ID_CHECKBOX4" variable="CheckBox4" member="yes">
+												<label>Grid</label>
+											</object>
+											<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxCheckBox" name="ID_CHECKBOX6" variable="CheckBox6" member="yes">
+												<label>Minimap</label>
+											</object>
+											<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxCheckBox" name="ID_CHECKBOX7" variable="CheckBox7" member="yes">
+												<label>Position</label>
+											</object>
+											<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxCheckBox" name="ID_CHECKBOX8" variable="CheckBox8" member="yes">
+												<label>Scenery</label>
+												<checked>1</checked>
+											</object>
+											<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxCheckBox" name="ID_CHECKBOX9" variable="CheckBox9" member="yes">
+												<label>Objects</label>
+												<checked>1</checked>
+											</object>
+											<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+									</object>
+									<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+										<label>Import map</label>
+										<handler function="OnButton1Click1" entry="EVT_BUTTON" />
+									</object>
+									<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALIGN_LEFT|wxALIGN_TOP</flag>
+						</object>
+					</object>
+				</object>
+				<name>MAIN</name>
+				<standardpanetype>Center</standardpanetype>
+				<caption>Pane caption</caption>
+				<captionvisible>0</captionvisible>
+				<minimizebutton>0</minimizebutton>
+				<maximizebutton>0</maximizebutton>
+				<pinbutton>0</pinbutton>
+				<closebutton>0</closebutton>
+				<dockdirection>Center</dockdirection>
+				<dockfixed>0</dockfixed>
+				<dockabledirection></dockabledirection>
+				<floatable>0</floatable>
+				<movable>0</movable>
+				<destroyonclose>0</destroyonclose>
+				<firstadd>0</firstadd>
+			</object>
+			<object class="AuiManagerItem">
+				<object class="wxPanel" name="ID_PANEL2" variable="Panel2" member="yes">
+					<pos>49,96</pos>
+					<minsize>180,-1</minsize>
+					<object class="wxFlexGridSizer" variable="FlexGridSizer3" member="no">
+						<cols>1</cols>
+						<growablecols>0</growablecols>
+						<growablerows>2</growablerows>
+						<object class="sizeritem">
+							<object class="wxChoice" name="ID_CHOICE1" variable="Choice1" member="yes">
+								<content>
+									<item>Tile types</item>
+									<item>Scenery types</item>
+									<item>Object types</item>
+									<item>NPC types</item>
+									<item>Light source types</item>
+									<item>Triggers</item>
+									<item>Effects</item>
+									<item>Zones</item>
+								</content>
+								<selection>0</selection>
+								<size>188,21</size>
+							</object>
+							<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>2</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxChoice" name="ID_CHOICE2" variable="Choice2" member="yes" />
+							<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>2</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxFlexGridSizer" variable="FlexGridSizer4" member="no">
+								<cols>2</cols>
+								<growablecols>0</growablecols>
+								<growablerows>0</growablerows>
+								<object class="sizeritem">
+									<object class="Custom" name="ID_CUSTOM2" subclass="EntitySelectCanvas" variable="Custom2" member="yes">
+										<creating_code>$(THIS) = new $(CLASS)($(PARENT),$(ID),$(POS),$(SIZE),0,wxDefaultValidator,$(NAME));</creating_code>
+										<style></style>
+										<minsize>150,-1</minsize>
+										<handler function="OnCustom2SetFocus" entry="EVT_SET_FOCUS" />
+										<handler function="OnCustom2KillFocus" entry="EVT_KILL_FOCUS" />
+										<handler function="OnCustom2LeftDown" entry="EVT_LEFT_DOWN" />
+										<handler function="OnCustom2LeftDClick" entry="EVT_LEFT_DCLICK" />
+									</object>
+									<flag>wxTOP|wxBOTTOM|wxLEFT|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>2</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxScrollBar" name="ID_SCROLLBAR1" variable="ScrollBar1" member="yes">
+										<thumbsize>1</thumbsize>
+										<range>10</range>
+										<pagesize>1</pagesize>
+										<minsize>15,100</minsize>
+										<maxsize>15,-1</maxsize>
+									</object>
+									<flag>wxTOP|wxBOTTOM|wxRIGHT|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>2</border>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxFlexGridSizer" variable="FlexGridSizer5" member="no">
+								<cols>2</cols>
+								<object class="sizeritem">
+									<object class="wxBitmapButton" name="ID_BITMAPBUTTON1" variable="BitmapButton1" member="yes">
+										<bitmap stock_id="wxART_NEW" stock_client="wxART_BUTTON" />
+										<default>1</default>
+										<handler function="OnBitmapButton1Click" entry="EVT_BUTTON" />
+									</object>
+									<flag>wxALIGN_LEFT|wxALIGN_TOP</flag>
+								</object>
+								<object class="sizeritem">
+									<object class="wxBitmapButton" name="ID_BITMAPBUTTON2" variable="BitmapButton2" member="yes">
+										<bitmap stock_id="wxART_DELETE" stock_client="wxART_BUTTON" />
+										<handler function="OnBitmapButton2Click" entry="EVT_BUTTON" />
+									</object>
+									<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxBOTTOM|wxLEFT|wxRIGHT|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+					</object>
+				</object>
+				<name>ENTITY__TYPE</name>
+				<caption>Entity type</caption>
+				<minimizebutton>0</minimizebutton>
+				<maximizebutton>0</maximizebutton>
+				<dockdirection>Left</dockdirection>
+				<dockfixed>0</dockfixed>
+				<dockabledirection></dockabledirection>
+				<destroyonclose>0</destroyonclose>
+				<firstadd>0</firstadd>
+			</object>
+			<object class="AuiManagerItem">
+				<object class="wxPanel" name="ID_PANEL3" variable="Panel3" member="yes">
+					<pos>103,18</pos>
+					<minsize>150,0</minsize>
+					<object class="wxFlexGridSizer" variable="FlexGridSizer7" member="no">
+						<cols>1</cols>
+						<growablecols>0</growablecols>
+						<growablerows>0</growablerows>
+						<object class="sizeritem">
+							<object class="wxNotebook" name="ID_NOTEBOOK1" variable="Notebook1" member="yes">
+								<minsize>150,-1</minsize>
+								<handler function="OnNotebook1PageChanged2" entry="EVT_NOTEBOOK_PAGE_CHANGED" />
+								<object class="notebookpage">
+									<object class="wxListBox" name="ID_LISTBOX1" variable="ListBox1" member="yes">
+										<default>-1</default>
+										<pos>24,12</pos>
+										<handler function="OnListBox1Select" entry="EVT_LISTBOX" />
+										<handler function="OnListBox1DClick" entry="EVT_LISTBOX_DCLICK" />
+									</object>
+									<label>Scripts</label>
+								</object>
+								<object class="notebookpage">
+									<object class="wxListBox" name="ID_LISTBOX2" variable="ListBox2" member="yes">
+										<default>-1</default>
+										<pos>36,121</pos>
+										<handler function="OnListBox2Select" entry="EVT_LISTBOX" />
+										<handler function="OnListBox2DClick" entry="EVT_LISTBOX_DCLICK" />
+									</object>
+									<label>Quests</label>
+								</object>
+								<object class="notebookpage">
+									<object class="wxListBox" name="ID_LISTBOX3" variable="ListBox3" member="yes">
+										<default>-1</default>
+										<pos>95,8</pos>
+										<handler function="OnListBox3Select" entry="EVT_LISTBOX" />
+									</object>
+									<label>Texts</label>
+								</object>
+							</object>
+							<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxFlexGridSizer" variable="FlexGridSizer8" member="no">
+								<cols>3</cols>
+								<object class="sizeritem">
+									<object class="wxBitmapButton" name="ID_BITMAPBUTTON3" variable="BitmapButton3" member="yes">
+										<bitmap stock_id="wxART_NEW" stock_client="wxART_BUTTON" />
+										<handler function="OnBitmapButton3Click" entry="EVT_BUTTON" />
+									</object>
+									<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxBitmapButton" name="ID_BITMAPBUTTON4" variable="BitmapButton4" member="yes">
+										<bitmap stock_id="wxART_DELETE" stock_client="wxART_BUTTON" />
+										<handler function="OnBitmapButton4Click" entry="EVT_BUTTON" />
+									</object>
+									<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxBOTTOM|wxLEFT|wxRIGHT|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+					</object>
+				</object>
+				<name>NOTEBOOK</name>
+				<caption>Resources</caption>
+				<minimizebutton>0</minimizebutton>
+				<maximizebutton>0</maximizebutton>
+				<pinbutton>0</pinbutton>
+				<dockdirection>Right</dockdirection>
+				<dockfixed>0</dockfixed>
+				<dockabledirection></dockabledirection>
+				<destroyonclose>0</destroyonclose>
+				<firstadd>0</firstadd>
+			</object>
+			<object class="AuiManagerItem">
+				<object class="wxPanel" name="ID_PANEL4" variable="Panel4" member="yes">
+					<pos>1,478</pos>
+					<minsize>-1,70</minsize>
+					<object class="wxFlexGridSizer" variable="FlexGridSizer10" member="no">
+						<cols>1</cols>
+						<growablecols>0</growablecols>
+						<growablerows>0</growablerows>
+						<object class="sizeritem">
+							<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+								<value>No errors</value>
+								<size>100,40</size>
+								<fg>#9F0B0F</fg>
+								<style>wxTE_MULTILINE|wxTE_READONLY</style>
+							</object>
+							<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<option>1</option>
+						</object>
+					</object>
+				</object>
+				<name>ERROR__LOG</name>
+				<caption>Error log</caption>
+				<minimizebutton>0</minimizebutton>
+				<maximizebutton>0</maximizebutton>
+				<pinbutton>0</pinbutton>
+				<dockdirection>Bottom</dockdirection>
+				<dockfixed>0</dockfixed>
+				<dockabledirection></dockabledirection>
+				<destroyonclose>0</destroyonclose>
+				<firstadd>0</firstadd>
+			</object>
+			<object class="AuiManagerItem">
+				<object class="wxPanel" name="ID_PANEL5" variable="Panel5" member="yes">
+					<pos>186,28</pos>
+					<object class="wxFlexGridSizer" variable="FlexGridSizer1" member="no">
+						<cols>1</cols>
+						<growablecols>0</growablecols>
+						<growablerows>1</growablerows>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+								<label>None</label>
+							</object>
+							<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>2</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxGrid" name="ID_GRID1" variable="Grid1" member="yes">
+								<cols>2</cols>
+								<labelrowheight>1</labelrowheight>
+								<labelcolwidth>15</labelcolwidth>
+								<collabels>
+									<item></item>
+									<item></item>
+								</collabels>
+								<rowlabels>
+									<item></item>
+									<item></item>
+									<item></item>
+									<item></item>
+									<item></item>
+									<item></item>
+									<item></item>
+									<item></item>
+									<item></item>
+									<item></item>
+								</rowlabels>
+								<size>178,215</size>
+								<minsize>-1,180</minsize>
+								<style>wxSUNKEN_BORDER</style>
+								<handler function="OnGrid1CellChange" entry="EVT_CMD_GRID_CELL_CHANGE" />
+								<handler function="OnGrid1EditorShown" entry="EVT_CMD_GRID_EDITOR_SHOWN" />
+							</object>
+							<flag>wxRIGHT|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>2</border>
+							<option>1</option>
+						</object>
+					</object>
+				</object>
+				<name>ENTITY__PREFERENCES</name>
+				<caption>Entity preferences</caption>
+				<minimizebutton>0</minimizebutton>
+				<maximizebutton>0</maximizebutton>
+				<dockdirection>Left</dockdirection>
+				<dockfixed>0</dockfixed>
+				<dockabledirection></dockabledirection>
+				<destroyonclose>0</destroyonclose>
+				<firstadd>0</firstadd>
+			</object>
+			<object class="AuiManagerItem">
+				<object class="wxPanel" name="ID_PANEL6" variable="Panel6" member="yes">
+					<pos>184,464</pos>
+					<object class="wxFlexGridSizer" variable="FlexGridSizer6" member="no">
+						<cols>1</cols>
+						<growablecols>0</growablecols>
+						<growablerows>1</growablerows>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+								<label>Show</label>
+							</object>
+							<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxCheckListBox" name="ID_CHECKLISTBOX1" variable="CheckListBox1" member="yes">
+								<content>
+									<item>Grid</item>
+									<item checked="1">Minimap</item>
+									<item checked="1">Position</item>
+									<item checked="1">Scenery</item>
+									<item checked="1">Objects</item>
+									<item checked="1">NPCs</item>
+									<item checked="1">Players</item>
+									<item checked="1">Lighting</item>
+									<item checked="1">Triggers</item>
+									<item checked="1">Effects</item>
+									<item checked="1">Zones</item>
+								</content>
+								<size>140,170</size>
+							</object>
+							<flag>wxBOTTOM|wxLEFT|wxRIGHT|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+								<label>Render type</label>
+							</object>
+							<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxChoice" name="ID_CHOICE3" variable="Choice3" member="yes">
+								<content>
+									<item>Editor</item>
+									<item>Color Map</item>
+									<item>Normal Map</item>
+									<item>Height Map</item>
+								</content>
+								<selection>0</selection>
+							</object>
+							<flag>wxBOTTOM|wxLEFT|wxRIGHT|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+					</object>
+				</object>
+				<name>OPTIONS</name>
+				<caption>Options</caption>
+				<minimizebutton>0</minimizebutton>
+				<maximizebutton>0</maximizebutton>
+				<pinbutton>0</pinbutton>
+				<dockdirection>Right</dockdirection>
+				<dockfixed>0</dockfixed>
+				<dockabledirection></dockabledirection>
+				<resizable>0</resizable>
+				<destroyonclose>0</destroyonclose>
+				<firstadd>0</firstadd>
+			</object>
+			<object class="AuiManagerItem">
+				<object class="wxAuiToolBar" name="ID_AUITOOLBAR1" variable="AuiToolBar1" member="yes">
+					<pos>183,22</pos>
+					<object class="AuiToolBarItem">
+						<object class="wxAuiToolBarItem" name="ID_AUITOOLBARITEM1" variable="AuiToolBarItem1" member="yes">
+							<bitmap stock_id="wxART_FILE_SAVE" stock_client="wxART_BUTTON" />
+							<shorthelp>Save project</shorthelp>
+						</object>
+						<label>Save</label>
+					</object>
+					<object class="AuiToolBarItem">
+						<object class="wxAuiToolBarItem" name="ID_AUITOOLBARITEM4" variable="AuiToolBarItem4" member="yes">
+							<bitmap stock_id="wxART_QUESTION" stock_client="wxART_BUTTON" />
+							<shorthelp>Help</shorthelp>
+						</object>
+						<label>Help</label>
+					</object>
+					<object class="AuiToolBarItem">
+						<object class="wxAuiToolBarSeparator" />
+						<label>Item label</label>
+					</object>
+					<object class="AuiToolBarItem">
+						<object class="wxAuiToolBarItem" name="ID_AUITOOLBARITEM2" variable="AuiToolBarItem2" member="yes">
+							<bitmap stock_id="wxART_UNDO" stock_client="wxART_BUTTON" />
+							<shorthelp>Undo</shorthelp>
+						</object>
+						<label>Undo</label>
+					</object>
+					<object class="AuiToolBarItem">
+						<object class="wxAuiToolBarItem" name="ID_AUITOOLBARITEM3" variable="AuiToolBarItem3" member="yes">
+							<bitmap stock_id="wxART_REDO" stock_client="wxART_BUTTON" />
+							<shorthelp>Redo</shorthelp>
+						</object>
+						<label>Redo</label>
+					</object>
+					<object class="AuiToolBarItem">
+						<object class="wxAuiToolBarSeparator" />
+						<label>Item label</label>
+					</object>
+					<object class="AuiToolBarItem">
+						<object class="wxAuiToolBarItem" name="ID_AUITOOLBARITEM5" variable="AuiToolBarItem5" member="yes">
+							<bitmap stock_id="wxART_CUT" stock_client="wxART_BUTTON" />
+							<shorthelp>Cut</shorthelp>
+						</object>
+						<label>Cut</label>
+					</object>
+					<object class="AuiToolBarItem">
+						<object class="wxAuiToolBarItem" name="ID_AUITOOLBARITEM6" variable="AuiToolBarItem6" member="yes">
+							<bitmap stock_id="wxART_COPY" stock_client="wxART_BUTTON" />
+							<shorthelp>Copy</shorthelp>
+						</object>
+						<label>Copy</label>
+					</object>
+					<object class="AuiToolBarItem">
+						<object class="wxAuiToolBarItem" name="ID_AUITOOLBARITEM7" variable="AuiToolBarItem7" member="yes">
+							<bitmap stock_id="wxART_PASTE" stock_client="wxART_BUTTON" />
+							<shorthelp>Paste</shorthelp>
+						</object>
+						<label>Paste</label>
+					</object>
+				</object>
+				<name>TOOLBAR</name>
+				<standardpanetype>Toolbar</standardpanetype>
+				<caption>Toolbar</caption>
+				<captionvisible>0</captionvisible>
+				<minimizebutton>0</minimizebutton>
+				<maximizebutton>0</maximizebutton>
+				<pinbutton>0</pinbutton>
+				<layer>10</layer>
+				<row>1</row>
+				<dockfixed>0</dockfixed>
+				<dockabledirection></dockabledirection>
+				<resizable>0</resizable>
+				<gripper>Default</gripper>
+				<destroyonclose>0</destroyonclose>
+				<firstadd>0</firstadd>
+			</object>
+			<object class="AuiManagerItem">
+				<object class="wxPanel" name="ID_PANEL7" variable="Panel7" member="yes">
+					<pos>184,37</pos>
+					<minsize>100,100</minsize>
+					<object class="wxFlexGridSizer" variable="FlexGridSizer12" member="no">
+						<cols>2</cols>
+						<growablecols>0,1</growablecols>
+						<growablerows>0</growablerows>
+						<object class="sizeritem">
+							<object class="wxListBox" name="ID_LISTBOX4" variable="ListBox4" member="yes">
+								<content>
+									<item>Placed scenery (Wall)</item>
+									<item>Placed scenery (Wall)</item>
+									<item>Placed tile (Grass)</item>
+									<item>Deleted tile (Grass)</item>
+								</content>
+								<default>-1</default>
+							</object>
+							<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+					</object>
+				</object>
+				<name>HISTORY</name>
+				<caption>History</caption>
+				<minimizebutton>0</minimizebutton>
+				<maximizebutton>0</maximizebutton>
+				<pinbutton>0</pinbutton>
+				<docked>0</docked>
+				<dockfixed>0</dockfixed>
+				<dockabledirection></dockabledirection>
+				<destroyonclose>0</destroyonclose>
+				<firstadd>0</firstadd>
+			</object>
+		</object>
+		<object class="wxMenuBar" variable="MenuBar1" member="no">
+			<object class="wxMenu" variable="Menu1" member="no">
+				<label>&amp;File</label>
+				<object class="wxMenuItem" name="idMenuSave" variable="MenuItem6" member="no">
+					<label>Save</label>
+					<accel>CTRL+S</accel>
+					<help>Save current project</help>
+					<handler function="OnSave" entry="EVT_MENU" />
+				</object>
+				<object class="wxMenuItem" name="idMenuQuit" variable="MenuItem1" member="no">
+					<label>Quit</label>
+					<accel>Alt+F4</accel>
+					<help>Quit the application</help>
+					<handler function="OnQuit" entry="EVT_MENU" />
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu2" member="no">
+				<label>Help</label>
+				<object class="wxMenuItem" name="idMenuAbout" variable="MenuItem2" member="no">
+					<label>About</label>
+					<accel>F1</accel>
+					<help>Show info about this application</help>
+					<handler function="OnAbout" entry="EVT_MENU" />
+				</object>
+			</object>
+		</object>
+	</object>
+</wxsmith>

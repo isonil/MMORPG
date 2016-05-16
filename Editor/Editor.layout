@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="NPCTypeEditor.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="33047" topLine="526" />
+	</File>
+	<File name="NPCTypeEditor.h" open="0" top="0" tabpos="6">
+		<Cursor position="2430" topLine="84" />
+	</File>
+	<File name="ScriptEditor.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="864" topLine="0" />
+	</File>
+	<File name="ScriptEditor.h" open="0" top="0" tabpos="12">
+		<Cursor position="638" topLine="6" />
+	</File>
+	<File name="source\Classes.hpp" open="0" top="0" tabpos="7">
+		<Cursor position="4629" topLine="130" />
+	</File>
+	<File name="source\DataModule.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="38208" topLine="696" />
+	</File>
+	<File name="source\DataModule.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="243" topLine="3" />
+	</File>
+	<File name="source\LogicModule.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1005" topLine="3" />
+	</File>
+	<File name="source\LogicModule.hpp" open="0" top="0" tabpos="9">
+		<Cursor position="203" topLine="0" />
+	</File>
+	<File name="source\RenderModule.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="593" topLine="5" />
+	</File>
+	<File name="source\RenderModule.hpp" open="0" top="0" tabpos="14">
+		<Cursor position="964" topLine="37" />
+	</File>
+	<File name="source\Editor.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="1223" topLine="12" />
+	</File>
+	<File name="source\Editor.hpp" open="0" top="0" tabpos="16">
+		<Cursor position="650" topLine="10" />
+	</File>
+	<File name="source\EditorApp.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="421" topLine="0" />
+	</File>
+	<File name="source\EditorApp.h" open="0" top="0" tabpos="0">
+		<Cursor position="310" topLine="0" />
+	</File>
+	<File name="source\EditorMain.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="382" topLine="0" />
+	</File>
+	<File name="source\EditorMain.h" open="0" top="0" tabpos="11">
+		<Cursor position="545" topLine="0" />
+	</File>
+	<File name="source\UtilityModule.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="23489" topLine="573" />
+	</File>
+	<File name="source\UtilityModule.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="1315" topLine="0" />
+	</File>
+	<File name="source\container.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="46" topLine="6" />
+	</File>
+	<File name="source\global.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="857" topLine="0" />
+	</File>
+	<File name="source\global.hpp" open="1" top="1" tabpos="70">
+		<Cursor position="5238" topLine="153" />
+	</File>
+	<File name="source\utility.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="670" topLine="0" />
+	</File>
+	<File name="source\utility.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="424" topLine="29" />
+	</File>
+	<File name="source\wxSFMLCanvas.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="720" topLine="0" />
+	</File>
+	<File name="source\wxSFMLCanvas.hpp" open="0" top="0" tabpos="15">
+		<Cursor position="2913" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

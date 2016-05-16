@@ -1,0 +1,19 @@
+(Params)
+Name Bandit
+Team 1
+MaxHealth 100
+;
+
+(Slots)
+0 2
+;
+
+(Loot)
+3 2 3 50
+;
+
+(Trade)
+;
+
+(Dialogue)
+;

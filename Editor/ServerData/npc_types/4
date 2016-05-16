@@ -1,0 +1,39 @@
+(Params)
+Name Test
+Team 0
+MaxHealth 999
+;
+
+(Slots)
+;
+
+(Loot)
+;
+
+(Trade)
+;
+
+(Dialogue)
+Block 0
+  NPCText 47
+  Option -1 -1 -1 48 1
+  Option -1 -1 -1 49 2
+  Option -1 -1 -1 50 3
+  Option -1 -1 -1 51 trade
+  Option -1 -1 -1 52 -1
+Block 1
+  NPCText 53
+  Option -1 -1 -1 54 4
+  Option -1 -1 -1 55 5
+  Option -1 -1 -1 56 0
+Block 2
+  NPCText 57
+  Option -1 -1 -1 58 0
+Block 3
+  NPCText 59
+  Option -1 -1 -1 60 0
+Block 4
+  NPCText 61
+Block 5
+  NPCText 62
+;

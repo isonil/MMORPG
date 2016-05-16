@@ -1,0 +1,12 @@
+Wall              0     Wall              OBJECT_BASE_TYPE_STRUCTURE  WEAPON_TYPE_NONE             EQUIPMENT_TYPE_NONE    ATTACHMENT_TYPE_NONE    20.0  20.0  1.0   1  0  0  0  0   0     0
+Colt22            2     Colt22            OBJECT_BASE_TYPE_WEAPON     WEAPON_TYPE_SMALL_GUN        EQUIPMENT_TYPE_NONE    ATTACHMENT_TYPE_NONE    0.0   0.0   0.5   0  1  0  0  5   300   100
+M16               3     M16               OBJECT_BASE_TYPE_WEAPON     WEAPON_TYPE_BIG_GUN          EQUIPMENT_TYPE_NONE    ATTACHMENT_TYPE_NONE    0.0   0.0   1.0   0  1  1  0  8   100   100
+M16_scope         4     M16_scope         OBJECT_BASE_TYPE_ADDON      WEAPON_TYPE_BIG_GUN          EQUIPMENT_TYPE_NONE    ATTACHMENT_TYPE_SIGHT   0.0   0.0   0.25  0  1  0  0  0   0     100
+test_vest         5     test_vest         OBJECT_BASE_TYPE_EQUIPMENT  WEAPON_TYPE_NONE             EQUIPMENT_TYPE_VEST    ATTACHMENT_TYPE_NONE    0.0   0.0   1.0   0  1  0  0  0   0     100
+Barrel            6     Barrel            OBJECT_BASE_TYPE_ADDON      WEAPON_TYPE_BIG_GUN          EQUIPMENT_TYPE_NONE    ATTACHMENT_TYPE_BARREL  0.0   0.0   0.25  0  1  0  0  0   0     100
+Grenade_Launcher  7     Grenade_Launcher  OBJECT_BASE_TYPE_ADDON      WEAPON_TYPE_BIG_GUN          EQUIPMENT_TYPE_NONE    ATTACHMENT_TYPE_MISC    0.0   0.0   0.25  0  1  0  0  0   0     100
+AT4               8     AT4               OBJECT_BASE_TYPE_WEAPON     WEAPON_TYPE_ROCKET_LAUNCHER  EQUIPMENT_TYPE_NONE    ATTACHMENT_TYPE_NONE    0.0   0.0   1.0   0  1  0  0  20  2000  100
+DesertEagle       100   DesertEagle       OBJECT_BASE_TYPE_WEAPON     WEAPON_TYPE_SMALL_GUN        EQUIPMENT_TYPE_NONE    ATTACHMENT_TYPE_NONE    0.0   0.0   0.5   0  1  0  0  5   300   100
+MP5               101   MP5               OBJECT_BASE_TYPE_WEAPON     WEAPON_TYPE_BIG_GUN          EQUIPMENT_TYPE_NONE    ATTACHMENT_TYPE_NONE    0.0   0.0   0.75  0  1  1  0  8   100   100
+UMP               102   UMP               OBJECT_BASE_TYPE_WEAPON     WEAPON_TYPE_BIG_GUN          EQUIPMENT_TYPE_NONE    ATTACHMENT_TYPE_NONE    0.0   0.0   0.75  0  1  1  0  8   100   100
+Leather_Gloves    1000  Leather_Gloves    OBJECT_BASE_TYPE_EQUIPMENT  WEAPON_TYPE_NONE             EQUIPMENT_TYPE_GLOVES  ATTACHMENT_TYPE_NONE    0.0   0.0   0.25  0  1  0  0  0   0     300

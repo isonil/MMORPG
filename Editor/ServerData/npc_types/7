@@ -1,0 +1,22 @@
+(Params)
+Name Boat_Driver
+Team 0
+MaxHealth 100
+;
+
+(Slots)
+2 1001
+4 1002
+;
+
+(Loot)
+;
+
+(Trade)
+;
+
+(Dialogue)
+Block 0
+  NPCText 97
+  Option -1 0 0 98 -1
+;

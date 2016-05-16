@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="source\BinPacker.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="5096" topLine="157" />
+	</File>
+	<File name="source\BinPacker.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="621" topLine="0" />
+	</File>
+	<File name="source\Character.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="23835" topLine="325" />
+	</File>
+	<File name="source\Classes.hpp" open="0" top="0" tabpos="16">
+		<Cursor position="7555" topLine="195" />
+	</File>
+	<File name="source\DataModule.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="3486" topLine="41" />
+	</File>
+	<File name="source\DataModule.hpp" open="0" top="0" tabpos="7">
+		<Cursor position="202" topLine="0" />
+	</File>
+	<File name="source\DataStream.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2520" topLine="47" />
+	</File>
+	<File name="source\DataStream.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1130" topLine="25" />
+	</File>
+	<File name="source\GUIControls.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="56" topLine="0" />
+	</File>
+	<File name="source\GUIControls.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="568" topLine="15" />
+	</File>
+	<File name="source\KeyContainer.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1234" topLine="24" />
+	</File>
+	<File name="source\LogicModule.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="23864" topLine="514" />
+	</File>
+	<File name="source\LogicModule.hpp" open="0" top="0" tabpos="10">
+		<Cursor position="1112" topLine="0" />
+	</File>
+	<File name="source\Master.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="37280" topLine="817" />
+	</File>
+	<File name="source\Master.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="1269" topLine="44" />
+	</File>
+	<File name="source\Network.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="4373" topLine="126" />
+	</File>
+	<File name="source\Network.hpp" open="1" top="0" tabpos="2">
+		<Cursor position="125" topLine="0" />
+	</File>
+	<File name="source\NewCode.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1707" topLine="25" />
+	</File>
+	<File name="source\NewCode.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="2477" topLine="87" />
+	</File>
+	<File name="source\Packets.hpp" open="1" top="0" tabpos="3">
+		<Cursor position="68" topLine="0" />
+	</File>
+	<File name="source\Packets\Build.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="20" topLine="0" />
+	</File>
+	<File name="source\Packets\Build.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="38" topLine="0" />
+	</File>
+	<File name="source\Packets\ChangeObjectPlaceRequest.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="449" topLine="0" />
+	</File>
+	<File name="source\Packets\ChangeObjectPlaceRequest.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="236" topLine="0" />
+	</File>
+	<File name="source\Packets\CharacterLostSight.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="351" topLine="0" />
+	</File>
+	<File name="source\Packets\CharacterLostSight.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="306" topLine="0" />
+	</File>
+	<File name="source\Packets\CharacterParamChange.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3490" topLine="38" />
+	</File>
+	<File name="source\Packets\CharacterParamChange.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="296" topLine="0" />
+	</File>
+	<File name="source\Packets\CharacterParams.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1346" topLine="0" />
+	</File>
+	<File name="source\Packets\CharacterParams.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="290" topLine="0" />
+	</File>
+	<File name="source\Packets\CharacterPosition.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1449" topLine="0" />
+	</File>
+	<File name="source\Packets\CharacterPosition.hpp" open="0" top="0" tabpos="8">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="source\Packets\CharacterSlotObjectChange.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1003" topLine="0" />
+	</File>
+	<File name="source\Packets\CharacterSlotObjectChange.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="336" topLine="0" />
+	</File>
+	<File name="source\Packets\ChooseTalkOption.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="236" topLine="0" />
+	</File>
+	<File name="source\Packets\ChooseTalkOption.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="267" topLine="0" />
+	</File>
+	<File name="source\Packets\CurrentDialogueBlock.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="923" topLine="0" />
+	</File>
+	<File name="source\Packets\CurrentDialogueBlock.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="314" topLine="0" />
+	</File>
+	<File name="source\Packets\DayTime.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="47" topLine="0" />
+	</File>
+	<File name="source\Packets\DayTime.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="258" topLine="0" />
+	</File>
+	<File name="source\Packets\EndCurrentNPCInteraction.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="241" topLine="0" />
+	</File>
+	<File name="source\Packets\EndCurrentNPCInteraction.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="215" topLine="0" />
+	</File>
+	<File name="source\Packets\GlobalChatMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="553" topLine="0" />
+	</File>
+	<File name="source\Packets\GlobalChatMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="369" topLine="0" />
+	</File>
+	<File name="source\Packets\GrenadeLauncherShot.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="1313" topLine="0" />
+	</File>
+	<File name="source\Packets\GrenadeLauncherShot.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="390" topLine="0" />
+	</File>
+	<File name="source\Packets\GrenadeThrow.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="677" topLine="1" />
+	</File>
+	<File name="source\Packets\GrenadeThrow.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="358" topLine="0" />
+	</File>
+	<File name="source\Packets\LocalChatMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2498" topLine="30" />
+	</File>
+	<File name="source\Packets\LocalChatMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="286" topLine="0" />
+	</File>
+	<File name="source\Packets\LogIn.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="964" topLine="5" />
+	</File>
+	<File name="source\Packets\LogIn.hpp" open="0" top="0" tabpos="6">
+		<Cursor position="362" topLine="0" />
+	</File>
+	<File name="source\Packets\ObjectChangeInInventory.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="704" topLine="0" />
+	</File>
+	<File name="source\Packets\ObjectChangeInInventory.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="330" topLine="0" />
+	</File>
+	<File name="source\Packets\ObjectChangeOnGround.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="903" topLine="0" />
+	</File>
+	<File name="source\Packets\ObjectChangeOnGround.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="318" topLine="0" />
+	</File>
+	<File name="source\Packets\ObjectChangeOnSlot.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="835" topLine="0" />
+	</File>
+	<File name="source\Packets\ObjectChangeOnSlot.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="310" topLine="0" />
+	</File>
+	<File name="source\Packets\Packet.hpp" open="0" top="0" tabpos="7">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="source\Packets\PrivateChatMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1978" topLine="21" />
+	</File>
+	<File name="source\Packets\PrivateChatMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="385" topLine="0" />
+	</File>
+	<File name="source\Packets\PrivateChatRequest.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="271" topLine="0" />
+	</File>
+	<File name="source\Packets\PrivateChatRequest.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="315" topLine="0" />
+	</File>
+	<File name="source\Packets\ProjectileHit.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4555" topLine="57" />
+	</File>
+	<File name="source\Packets\ProjectileHit.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="282" topLine="0" />
+	</File>
+	<File name="source\Packets\QuestProgressChange.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="332" topLine="0" />
+	</File>
+	<File name="source\Packets\QuestProgressChange.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="310" topLine="0" />
+	</File>
+	<File name="source\Packets\ServerMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="467" topLine="0" />
+	</File>
+	<File name="source\Packets\ServerMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="282" topLine="0" />
+	</File>
+	<File name="source\Packets\Shot.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4009" topLine="45" />
+	</File>
+	<File name="source\Packets\Shot.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="311" topLine="0" />
+	</File>
+	<File name="source\Packets\StartTalkWithNPC.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="200" topLine="0" />
+	</File>
+	<File name="source\Packets\StartTalkWithNPC.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="273" topLine="0" />
+	</File>
+	<File name="source\Packets\TradeWithNPCBuyObject.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="127" topLine="0" />
+	</File>
+	<File name="source\Packets\TradeWithNPCBuyObject.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="297" topLine="0" />
+	</File>
+	<File name="source\Packets\TradeWithNPCObjectsList.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="341" topLine="0" />
+	</File>
+	<File name="source\Packets\TradeWithNPCObjectsList.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="245" topLine="0" />
+	</File>
+	<File name="source\Packets\Weather.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1377" topLine="0" />
+	</File>
+	<File name="source\Packets\Weather.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="244" topLine="0" />
+	</File>
+	<File name="source\Player.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3520" topLine="63" />
+	</File>
+	<File name="source\Player.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="163" topLine="0" />
+	</File>
+	<File name="source\ReferenceContainer.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="89" topLine="0" />
+	</File>
+	<File name="source\RenderModule.cpp" open="0" top="0" tabpos="17">
+		<Cursor position="111988" topLine="1979" />
+	</File>
+	<File name="source\RenderModule.hpp" open="0" top="0" tabpos="11">
+		<Cursor position="931" topLine="34" />
+	</File>
+	<File name="source\Shaders.hpp" open="0" top="0" tabpos="16">
+		<Cursor position="277" topLine="0" />
+	</File>
+	<File name="source\Shaders\LightToLightDiffuseMap.hpp" open="0" top="0" tabpos="12">
+		<Cursor position="394" topLine="7" />
+	</File>
+	<File name="source\Shaders\LightToLightSpecularMap.hpp" open="0" top="0" tabpos="13">
+		<Cursor position="819" topLine="11" />
+	</File>
+	<File name="source\Shaders\PostProcess.hpp" open="0" top="0" tabpos="14">
+		<Cursor position="528" topLine="0" />
+	</File>
+	<File name="source\Shaders\Water.hpp" open="0" top="0" tabpos="15">
+		<Cursor position="832" topLine="6" />
+	</File>
+	<File name="source\SpriteDrawQueueClass.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="1405" topLine="33" />
+	</File>
+	<File name="source\SpriteDrawQueueClass.hpp" open="0" top="0" tabpos="14">
+		<Cursor position="422" topLine="0" />
+	</File>
+	<File name="source\TextureAtlas.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="1612" topLine="46" />
+	</File>
+	<File name="source\TexturePacker.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="1409" topLine="21" />
+	</File>
+	<File name="source\TexturePacker.hpp" open="0" top="0" tabpos="11">
+		<Cursor position="836" topLine="13" />
+	</File>
+	<File name="source\Timer.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="63" topLine="0" />
+	</File>
+	<File name="source\UtilityModule.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="8766" topLine="217" />
+	</File>
+	<File name="source\UtilityModule.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1492" topLine="0" />
+	</File>
+	<File name="source\World.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="698" topLine="3" />
+	</File>
+	<File name="source\World.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="64" topLine="0" />
+	</File>
+	<File name="source\benchmark.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="675" topLine="3" />
+	</File>
+	<File name="source\container.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="1729" topLine="54" />
+	</File>
+	<File name="source\global.cpp" open="0" top="0" tabpos="18">
+		<Cursor position="7410" topLine="202" />
+	</File>
+	<File name="source\global.hpp" open="0" top="0" tabpos="10">
+		<Cursor position="6307" topLine="68" />
+	</File>
+	<File name="source\ini.hpp" open="0" top="0" tabpos="9">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="source\main.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="110" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,56 @@
+(Params)
+Name Soldier
+Team 0
+MaxHealth 300
+;
+
+(Slots)
+0 3
+2 1001
+3 1000
+4 1002
+;
+
+(Loot)
+;
+
+(Trade)
+;
+
+(Dialogue)
+Block 0
+  NPCText 20
+  Option -1 -1 -1 21 1
+  Option -1 -1 -1 22 -1
+Block 1
+  NPCText 23
+  Option -1 -1 -1 24 3
+  Option -1 -1 -1 25 4
+  Option -1 -1 -1 26 5
+  Option -1 -1 -1 27 6
+  Option -1 -1 -1 28 7
+  Option -1 -1 -1 29 -1
+Block 2
+  NPCText 30
+  Option -1 -1 -1 31 3
+  Option -1 -1 -1 32 4
+  Option -1 -1 -1 33 5
+  Option -1 -1 -1 34 6
+  Option -1 -1 -1 35 7
+  Option -1 -1 -1 36 -1
+Block 3
+  NPCText 37
+  Option -1 -1 -1 38 2
+Block 4
+  NPCText 39
+  Option -1 -1 -1 40 2
+Block 5
+  NPCText 41
+  Option -1 -1 -1 42 2
+Block 6
+  NPCText 43
+  Option -1 -1 -1 44 2
+Block 7
+  NPCText 45
+  Option -1 -1 -1 46 2
+;

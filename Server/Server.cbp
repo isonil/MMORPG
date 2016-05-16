@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Server" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Server" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-g" />
+					<Add option="-DDEBUG" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Server" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-O3" />
+			<Add option="-std=c++0x" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-DWIN32" />
+			<Add directory="C:\Users\ison\Documents\mmorpg\Server\source\" />
+			<Add directory="C:\Users\ison\Documents\mmorpg\Server\obj\" />
+		</Compiler>
+		<Linker>
+			<Add option="-lopenlayer -lglyph-agl -lfreetype -lpng -lz -lagl -lalleg -luser32 -lgdi32 -lglu32 -lopengl32" />
+			<Add option="-lsfml-system" />
+			<Add library="..\..\..\..\..\CodeBlocks\MinGW\lib\libenet.dll.a" />
+			<Add directory="C:\Users\ison\Documents\mmorpg\Server\obj\" />
+		</Linker>
+		<Unit filename="source\Character.cpp" />
+		<Unit filename="source\Classes.hpp" />
+		<Unit filename="source\DataModule.cpp" />
+		<Unit filename="source\DataModule.hpp" />
+		<Unit filename="source\Line.cpp" />
+		<Unit filename="source\Line.hpp" />
+		<Unit filename="source\LogicModule.cpp" />
+		<Unit filename="source\LogicModule.hpp" />
+		<Unit filename="source\Master.cpp" />
+		<Unit filename="source\Master.hpp" />
+		<Unit filename="source\Network.cpp" />
+		<Unit filename="source\Network.hpp" />
+		<Unit filename="source\NetworkModule.cpp" />
+		<Unit filename="source\NetworkModule.hpp" />
+		<Unit filename="source\Packets.hpp" />
+		<Unit filename="source\Packets\Build.cpp" />
+		<Unit filename="source\Packets\Build.hpp" />
+		<Unit filename="source\Packets\ChangeObjectPlaceRequest.cpp" />
+		<Unit filename="source\Packets\ChangeObjectPlaceRequest.hpp" />
+		<Unit filename="source\Packets\CharacterLostSight.cpp" />
+		<Unit filename="source\Packets\CharacterLostSight.hpp" />
+		<Unit filename="source\Packets\CharacterParamChange.cpp" />
+		<Unit filename="source\Packets\CharacterParamChange.hpp" />
+		<Unit filename="source\Packets\CharacterParams.cpp" />
+		<Unit filename="source\Packets\CharacterParams.hpp" />
+		<Unit filename="source\Packets\CharacterPosition.cpp" />
+		<Unit filename="source\Packets\CharacterPosition.hpp" />
+		<Unit filename="source\Packets\CharacterSlotObjectChange.cpp" />
+		<Unit filename="source\Packets\CharacterSlotObjectChange.hpp" />
+		<Unit filename="source\Packets\ChooseTalkOption.cpp" />
+		<Unit filename="source\Packets\ChooseTalkOption.hpp" />
+		<Unit filename="source\Packets\CurrentDialogueBlock.cpp" />
+		<Unit filename="source\Packets\CurrentDialogueBlock.hpp" />
+		<Unit filename="source\Packets\DayTime.cpp" />
+		<Unit filename="source\Packets\DayTime.hpp" />
+		<Unit filename="source\Packets\EndCurrentNPCInteraction.cpp" />
+		<Unit filename="source\Packets\EndCurrentNPCInteraction.hpp" />
+		<Unit filename="source\Packets\GlobalChatMessage.cpp" />
+		<Unit filename="source\Packets\GlobalChatMessage.hpp" />
+		<Unit filename="source\Packets\GrenadeLauncherShot.cpp" />
+		<Unit filename="source\Packets\GrenadeLauncherShot.hpp" />
+		<Unit filename="source\Packets\GrenadeThrow.cpp" />
+		<Unit filename="source\Packets\GrenadeThrow.hpp" />
+		<Unit filename="source\Packets\LocalChatMessage.cpp" />
+		<Unit filename="source\Packets\LocalChatMessage.hpp" />
+		<Unit filename="source\Packets\LogIn.cpp" />
+		<Unit filename="source\Packets\LogIn.hpp" />
+		<Unit filename="source\Packets\ObjectChangeInInventory.cpp" />
+		<Unit filename="source\Packets\ObjectChangeInInventory.hpp" />
+		<Unit filename="source\Packets\ObjectChangeOnGround.cpp" />
+		<Unit filename="source\Packets\ObjectChangeOnGround.hpp" />
+		<Unit filename="source\Packets\ObjectChangeOnSlot.cpp" />
+		<Unit filename="source\Packets\ObjectChangeOnSlot.hpp" />
+		<Unit filename="source\Packets\Packet.hpp" />
+		<Unit filename="source\Packets\PrivateChatMessage.cpp" />
+		<Unit filename="source\Packets\PrivateChatMessage.hpp" />
+		<Unit filename="source\Packets\PrivateChatRequest.cpp" />
+		<Unit filename="source\Packets\PrivateChatRequest.hpp" />
+		<Unit filename="source\Packets\ProjectileHit.cpp" />
+		<Unit filename="source\Packets\ProjectileHit.hpp" />
+		<Unit filename="source\Packets\QuestProgressChange.cpp" />
+		<Unit filename="source\Packets\QuestProgressChange.hpp" />
+		<Unit filename="source\Packets\ServerMessage.cpp" />
+		<Unit filename="source\Packets\ServerMessage.hpp" />
+		<Unit filename="source\Packets\Shot.cpp" />
+		<Unit filename="source\Packets\Shot.hpp" />
+		<Unit filename="source\Packets\StartTalkWithNPC.cpp" />
+		<Unit filename="source\Packets\StartTalkWithNPC.hpp" />
+		<Unit filename="source\Packets\TradeWithNPCBuyObject.cpp" />
+		<Unit filename="source\Packets\TradeWithNPCBuyObject.hpp" />
+		<Unit filename="source\Packets\TradeWithNPCObjectsList.cpp" />
+		<Unit filename="source\Packets\TradeWithNPCObjectsList.hpp" />
+		<Unit filename="source\Packets\Weather.cpp" />
+		<Unit filename="source\Packets\Weather.hpp" />
+		<Unit filename="source\UtilityModule.cpp" />
+		<Unit filename="source\UtilityModule.hpp" />
+		<Unit filename="source\benchmark.hpp" />
+		<Unit filename="source\container.hpp" />
+		<Unit filename="source\global.cpp" />
+		<Unit filename="source\global.hpp" />
+		<Unit filename="source\main.cpp" />
+		<Unit filename="source\server.cpp" />
+		<Unit filename="source\server.hpp" />
+		<Unit filename="source\utility.cpp" />
+		<Unit filename="source\utility.hpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

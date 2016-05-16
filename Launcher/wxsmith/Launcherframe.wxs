@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="LauncherFrame">
+		<centered>1</centered>
+		<size>600,260</size>
+		<bg>#000000</bg>
+		<id_arg>0</id_arg>
+		<style>wxSTATIC_BORDER</style>
+		<object class="wxGauge" name="ID_GAUGE1" variable="Gauge1" member="yes">
+			<pos>0,232</pos>
+			<size>600,28</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Checking files</label>
+			<pos>0,218</pos>
+			<size>80,14</size>
+			<fg>#FFFFFF</fg>
+			<bg>#000000</bg>
+		</object>
+		<object class="Custom" name="ID_CUSTOM1" subclass="HtmlWindow" variable="Custom1" member="yes">
+			<creating_code>$(THIS) = new $(CLASS)($(PARENT),$(ID),$(POS),$(SIZE),$(STYLE),$(NAME));</creating_code>
+			<include_file>HtmlWindow.hpp</include_file>
+			<local_include>1</local_include>
+			<style></style>
+			<pos>0,0</pos>
+			<size>600,218</size>
+			<focused>1</focused>
+		</object>
+	</object>
+</wxsmith>

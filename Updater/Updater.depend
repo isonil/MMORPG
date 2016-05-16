@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1347032473 source:c:\users\ison\documents\mmorpg\updater\source\md5.cpp
+	"md5.h"
+	<stdio.h>
+	<string.h>
+
+1328042682 c:\users\ison\documents\mmorpg\updater\source\md5.h
+	<string>
+	<iostream>
+
+1347211157 source:c:\users\ison\documents\mmorpg\updater\source\main.cpp
+	<cstdio>
+	<string>
+	<vector>
+	<fstream>
+	<conio.h>
+	<windows.h>
+	<cstring>
+	"md5.h"
+
+1347035103 source:c:\users\ison\documents\mmorpg\updater\resources.rc
+

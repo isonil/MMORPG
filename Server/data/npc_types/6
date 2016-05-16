@@ -1,0 +1,27 @@
+(Params)
+Name Weapon_Dealer
+Team 0
+MaxHealth 300
+;
+
+(Slots)
+2 1001
+4 1002
+;
+
+(Loot)
+;
+
+(Trade)
+;
+
+(Dialogue)
+Block 0
+  NPCText 92
+  Option 0 10 10 93 1
+  Option -1 0 0 94 trade
+Block 1
+  NPCText 95
+  RunScript 1
+  Option -1 0 0 96 -1
+;

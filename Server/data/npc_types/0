@@ -1,0 +1,28 @@
+(Params)
+Name Vendor
+Team 0
+MaxHealth 100
+;
+
+(Slots)
+;
+
+(Loot)
+;
+
+(Trade)
+2
+3
+8
+100
+101
+102
+1000
+;
+
+(Dialogue)
+Block 0
+  NPCText 0
+  Option -1 -1 -1 1 trade
+  Option -1 -1 -1 2 -1
+;

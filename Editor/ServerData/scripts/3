@@ -1,0 +1,3 @@
+SetQuestProgress FIRST_TASK 100
+AddMoney 100
+AddExp 100

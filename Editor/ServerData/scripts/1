@@ -1,0 +1,5 @@
+SetQuestProgress FIRST_TASK 20
+AddMoney 100
+AddExp 50
+// GiveObject M_16
+// GiveObject M_16_AMMO

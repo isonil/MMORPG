@@ -1,0 +1,14 @@
+Tree 0 tree1 NATURE_TYPE_TREE 2 1 0 0
+Tree 1 tree2 NATURE_TYPE_TREE 2 1 0 0
+Tree 2 tree3 NATURE_TYPE_TREE 2 1 0 0
+Stone_Wall 3 structures/stone_wall NATURE_TYPE_NONE 1 0 20 20
+Water_Lily 4 nature/water_lily1 NATURE_TYPE_WATER_FLOAT 0 1 0 0
+Water_Lily 5 nature/water_lily2 NATURE_TYPE_WATER_FLOAT 0 1 0 0
+Water_Lily 6 nature/water_lily3 NATURE_TYPE_WATER_FLOAT_STATIC 0 1 0 0
+Fern 7 nature/fern NATURE_TYPE_FERN 1 1 0 0
+Fern 8 nature/fern2 NATURE_TYPE_FERN 1 1 0 0
+Crate 9 structures/crate1 NATURE_TYPE_NONE 1 0 25 25
+Barbed_Wire 10 structures/barbedWire1 NATURE_TYPE_NONE 1 0 0 0
+Barbed_Wire 11 structures/barbedWire2 NATURE_TYPE_NONE 1 0 0 0
+Tank 12 misc/tank NATURE_TYPE_NONE 1 0 25 25
+Tower 13 structures/tower1 NATURE_TYPE_NONE 1 0 25 25

@@ -1,0 +1,63 @@
+(Params)
+Name Commander
+Team 0
+MaxHealth 500
+;
+
+(Slots)
+0 2
+2 1001
+3 1000
+4 1002
+;
+
+(Loot)
+;
+
+(Trade)
+;
+
+(Dialogue)
+Block 0
+  NPCText 63
+  Option 0 0 0 64 5
+  Option 0 0 0 65 2
+  Option -1 0 -1 66 -1
+  Option -1 -1 -1 67 1
+  Option 0 20 20 68 7
+  Option 0 30 30 69 8
+  Option 0 40 40 70 9
+Block 1
+  NPCText 71
+  Option -1 0 -1 72 0
+Block 2
+  NPCText 73
+  Option -1 -1 -1 74 3
+  Option -1 -1 -1 75 4
+  Option -1 -1 -1 76 -1
+Block 3
+  NPCText 77
+  Option -1 -1 -1 78 5
+Block 4
+  NPCText 79
+  Option -1 -1 -1 80 -1
+Block 5
+  NPCText 81
+  Option -1 -1 -1 82 6
+  Option -1 -1 -1 83 -1
+Block 6
+  NPCText 84
+  RunScript 0
+  Option -1 -1 -1 85 -1
+Block 7
+  NPCText 86
+  RunScript 2
+  Option -1 0 0 87 -1
+Block 8
+  NPCText 88
+  Option -1 0 0 89 -1
+Block 9
+  NPCText 90
+  RunScript 3
+  Option -1 0 0 91 -1
+;

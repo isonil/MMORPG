@@ -1,0 +1,1089 @@
+# depslib dependency file v1.0
+1342660064 source:c:\users\ison\documents\mmorpg refactored\client\source\global.cpp
+	"global.hpp"
+
+1342701778 c:\users\ison\documents\mmorpg refactored\client\source\global.hpp
+	<OpenLayer.hpp>
+	<enet/enet.h>
+	<string>
+	<vector>
+	<windows.h>
+	<audiere.h>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+
+1342702115 source:c:\users\ison\documents\mmorpg refactored\client\source\interface.cpp
+	"interface.hpp"
+
+1342742777 c:\users\ison\documents\mmorpg refactored\client\source\interface.hpp
+	<OpenLayer.hpp>
+	<vector>
+	<string>
+	<SFML/Graphics.hpp>
+	"global.hpp"
+
+1323378404 source:c:\users\ison\documents\mmorpg refactored\client\source\light.cpp
+
+1342824992 source:c:\users\ison\documents\mmorpg refactored\client\source\quest.cpp
+	"quest.hpp"
+
+1342824874 c:\users\ison\documents\mmorpg refactored\client\source\quest.hpp
+	<vector>
+	<string>
+	<fstream>
+	<cstring>
+	"global.hpp"
+	"utility.hpp"
+
+1342658398 c:\users\ison\documents\mmorpg refactored\client\source\utility.hpp
+	<algorithm>
+	<string>
+	<cstring>
+
+1341561463 source:c:\users\ison\documents\mmorpg refactored\client\source\utility.cpp
+	"utility.hpp"
+
+1342717347 source:c:\users\ison\documents\mmorpg refactored\client\source\view.cpp
+	"view.hpp"
+
+1342874621 c:\users\ison\documents\mmorpg refactored\client\source\view.hpp
+	<OpenLayer.hpp>
+	"global.hpp"
+
+1342740817 source:c:\users\ison\documents\mmorpg refactored\client\source\logic.cpp
+	"logic.hpp"
+
+1342740825 c:\users\ison\documents\mmorpg refactored\client\source\logic.hpp
+	<OpenLayer.hpp>
+	<vector>
+	<list>
+	<string>
+	<cstring>
+	<windows.h>
+	"global.hpp"
+	"character.hpp"
+	"tile.hpp"
+	"scenery.hpp"
+	"object.hpp"
+	"view.hpp"
+	"map.hpp"
+	"projectile.hpp"
+	"particle.hpp"
+	"light.hpp"
+	"interface.hpp"
+	"weather.hpp"
+	"utility.hpp"
+	"gamesettings.hpp"
+	"ini.hpp"
+	"client.hpp"
+
+1342794000 c:\users\ison\documents\mmorpg refactored\client\source\character.hpp
+	<vector>
+	<string>
+	<algorithm>
+	"global.hpp"
+	"object.hpp"
+
+1342877846 c:\users\ison\documents\mmorpg refactored\client\source\object.hpp
+	<OpenLayer.hpp>
+	<SFML/Graphics.hpp>
+	"global.hpp"
+
+1342826410 c:\users\ison\documents\mmorpg refactored\client\source\tile.hpp
+	<OpenLayer.hpp>
+	<vector>
+	<string>
+	<fstream>
+	<SFML/Graphics.hpp>
+	"global.hpp"
+	"utility.hpp"
+
+1342828193 c:\users\ison\documents\mmorpg refactored\client\source\scenery.hpp
+	<OpenLayer.hpp>
+	<vector>
+	<string>
+	<fstream>
+	<SFML/Graphics.hpp>
+	"global.hpp"
+	"utility.hpp"
+
+1342828415 c:\users\ison\documents\mmorpg refactored\client\source\map.hpp
+	<list>
+	<SFML/Graphics.hpp>
+
+1342659175 c:\users\ison\documents\mmorpg refactored\client\source\projectile.hpp
+
+1342656969 c:\users\ison\documents\mmorpg refactored\client\source\particle.hpp
+	<SFML/Graphics.hpp>
+
+1342655479 c:\users\ison\documents\mmorpg refactored\client\source\light.hpp
+
+1342659249 c:\users\ison\documents\mmorpg refactored\client\source\weather.hpp
+	<SFML/Graphics.hpp>
+	"global.hpp"
+
+1342654124 c:\users\ison\documents\mmorpg refactored\client\source\gamesettings.hpp
+
+1342654821 c:\users\ison\documents\mmorpg refactored\client\source\ini.hpp
+	<string>
+	<cstring>
+	<vector>
+	<fstream>
+	<map>
+
+1342999689 source:c:\users\ison\documents\mmorpg refactored\client\source\main.cpp
+	"Client.hpp"
+
+1342740837 c:\users\ison\documents\mmorpg refactored\client\source\render.hpp
+	<vector>
+	<list>
+	<string>
+	<OpenLayer.hpp>
+	"global.hpp"
+	"character.hpp"
+	"tile.hpp"
+	"scenery.hpp"
+	"object.hpp"
+	"view.hpp"
+	"map.hpp"
+	"projectile.hpp"
+	"particle.hpp"
+	"light.hpp"
+	"interface.hpp"
+	"weather.hpp"
+	"client.hpp"
+
+1337258498 c:\users\ison\documents\mmorpg refactored\client\source\network.hpp
+	"global.hpp"
+	"character.hpp"
+	"weather.hpp"
+	"object.hpp"
+	"interface.hpp"
+	"map.hpp"
+	"projectile.hpp"
+	"logic.hpp"
+	"quest.hpp"
+
+1341362748 source:c:\users\ison\documents\mmorpg refactored\client\source\network.cpp
+	"network.hpp"
+
+1342732314 source:c:\users\ison\documents\mmorpg refactored\client\source\object.cpp
+	"object.hpp"
+
+1342740831 source:c:\users\ison\documents\mmorpg refactored\client\source\render.cpp
+
+1342717034 source:c:\users\ison\documents\mmorpg refactored\client\source\scenery.cpp
+	"scenery.hpp"
+
+1342717214 source:c:\users\ison\documents\mmorpg refactored\client\source\tile.cpp
+	"tile.hpp"
+
+1343325303 source:c:\users\ison\documents\mmorpg refactored\client\source\client.cpp
+	"client.hpp"
+
+1343335269 c:\users\ison\documents\mmorpg refactored\client\source\client.hpp
+	<OpenLayer.hpp>
+	<vector>
+	<list>
+	<string>
+	<cstring>
+	<windows.h>
+	<conio.h>
+	"global.hpp"
+	"interface.hpp"
+	"utility.hpp"
+	"benchmark.hpp"
+	"SpriteDrawQueueClass.hpp"
+	"DataModule.hpp"
+	"UtilityModule.hpp"
+	"RenderModule.hpp"
+	"LogicModule.hpp"
+	"NetworkModule.hpp"
+	"DataStream.hpp"
+
+1341494252 c:\users\ison\documents\mmorpg refactored\client\source\benchmark.hpp
+	<ctime>
+	"global.hpp"
+
+1342652620 source:c:\users\ison\documents\mmorpg refactored\client\source\spritedrawqueueclass.cpp
+	"SpriteDrawQueueClass.hpp"
+
+1342659136 c:\users\ison\documents\mmorpg refactored\client\source\spritedrawqueueclass.hpp
+	<SFML/Graphics.hpp>
+	<vector>
+	<algorithm>
+	"global.hpp"
+
+1342659032 source:c:\users\ison\documents\mmorpg refactored\client\source\ini.cpp
+	"ini.hpp"
+
+1342997889 c:\users\ison\documents\mmorpg refactored\client\source\datamodule.hpp
+	"Classes.hpp"
+	"ini.hpp"
+	"interface.hpp"
+	"utility.hpp"
+
+1343327301 source:c:\users\ison\documents\mmorpg refactored\client\source\logicmodule.cpp
+	"LogicModule.hpp"
+
+1343326014 c:\users\ison\documents\mmorpg refactored\client\source\logicmodule.hpp
+	"DataModule.hpp"
+	"UtilityModule.hpp"
+	"NetworkModule.hpp"
+
+1342999345 source:c:\users\ison\documents\mmorpg refactored\client\source\networkmodule.cpp
+	"NetworkModule.hpp"
+
+1343302433 c:\users\ison\documents\mmorpg refactored\client\source\networkmodule.hpp
+	"DataModule.hpp"
+	"UtilityModule.hpp"
+
+1342895597 c:\users\ison\documents\mmorpg refactored\client\source\classes.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	<list>
+	"global.hpp"
+
+1342895527 source:c:\users\ison\documents\mmorpg refactored\client\source\datamodule.cpp
+	"DataModule.hpp"
+
+1343156869 c:\users\ison\documents\mmorpg refactored\client\source\utilitymodule.hpp
+	"DataModule.hpp"
+
+1342999209 source:c:\users\ison\documents\mmorpg refactored\client\source\utilitymodule.cpp
+	"UtilityModule.hpp"
+
+1343329335 c:\users\ison\documents\mmorpg refactored\client\source\rendermodule.hpp
+	"DataModule.hpp"
+	"UtilityModule.hpp"
+	"SpriteDrawQueueClass.hpp"
+
+1343330146 source:c:\users\ison\documents\mmorpg refactored\client\source\rendermodule.cpp
+	"RenderModule.hpp"
+
+1343074959 c:\users\ison\documents\mmorpg refactored\client\source\datastream.hpp
+	<SFML/System.hpp>
+	<string>
+	"global.hpp"
+
+1343159632 source:c:\users\ison\documents\mmorpg refactored\client\source\datastream.cpp
+	"DataStream.hpp"
+
+1362594353 source:c:\users\ison\documents\mmorpg\client\source\datamodule.cpp
+	"DataModule.hpp"
+	"ini.hpp"
+	"utility.hpp"
+
+1363182373 c:\users\ison\documents\mmorpg\client\source\datamodule.hpp
+	"Classes.hpp"
+	"SpriteDrawQueueClass.hpp"
+	"container.hpp"
+	"TextureAtlas.hpp"
+
+1363219296 c:\users\ison\documents\mmorpg\client\source\classes.hpp
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<string>
+	<list>
+	"global.hpp"
+	"GUIControls.hpp"
+	"Timer.hpp"
+
+1363123560 c:\users\ison\documents\mmorpg\client\source\global.hpp
+	<enet/enet.h>
+	<cmath>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	<windows.h>
+	<audiere.h>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1342651221 c:\users\ison\documents\mmorpg\client\source\ini.hpp
+	<string>
+	<cstring>
+	<vector>
+	<fstream>
+	<map>
+
+1345118723 c:\users\ison\documents\mmorpg\client\source\interface.hpp
+	<OpenLayer.hpp>
+	<vector>
+	<string>
+	<SFML/Graphics.hpp>
+	"global.hpp"
+
+1342654798 c:\users\ison\documents\mmorpg\client\source\utility.hpp
+	<algorithm>
+	<string>
+	<cstring>
+
+1345293479 source:c:\users\ison\documents\mmorpg\client\source\datastream.cpp
+	"DataStream.hpp"
+	"global.hpp"
+
+1345293457 c:\users\ison\documents\mmorpg\client\source\datastream.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	<vector>
+
+1363184731 source:c:\users\ison\documents\mmorpg\client\source\logicmodule.cpp
+	"LogicModule.hpp"
+	"Master.hpp"
+
+1362595401 c:\users\ison\documents\mmorpg\client\source\logicmodule.hpp
+	"DataModule.hpp"
+	"UtilityModule.hpp"
+
+1363132215 c:\users\ison\documents\mmorpg\client\source\utilitymodule.hpp
+	"DataModule.hpp"
+
+1362659923 c:\users\ison\documents\mmorpg\client\source\networkmodule.hpp
+	"DataModule.hpp"
+	"UtilityModule.hpp"
+
+1363114526 source:c:\users\ison\documents\mmorpg\client\source\networkmodule.cpp
+	"NetworkModule.hpp"
+
+1357756448 source:c:\users\ison\documents\mmorpg\client\source\spritedrawqueueclass.cpp
+	"SpriteDrawQueueClass.hpp"
+
+1349442697 c:\users\ison\documents\mmorpg\client\source\spritedrawqueueclass.hpp
+	<SFML/Graphics.hpp>
+	<vector>
+	<algorithm>
+	"global.hpp"
+
+1363207564 source:c:\users\ison\documents\mmorpg\client\source\utilitymodule.cpp
+	"UtilityModule.hpp"
+	"Master.hpp"
+
+1362845205 source:c:\users\ison\documents\mmorpg\client\source\global.cpp
+	"global.hpp"
+
+1346107709 source:c:\users\ison\documents\mmorpg\client\source\ini.cpp
+	"ini.hpp"
+
+1345118476 source:c:\users\ison\documents\mmorpg\client\source\interface.cpp
+	"interface.hpp"
+
+1342740831 source:c:\users\ison\documents\mmorpg\client\source\render.cpp
+
+1346107657 source:c:\users\ison\documents\mmorpg\client\source\utility.cpp
+	"utility.hpp"
+
+1363218726 source:c:\users\ison\documents\mmorpg\client\source\rendermodule.cpp
+	"RenderModule.hpp"
+	<deque>
+	<utility>
+	"Master.hpp"
+
+1362941200 c:\users\ison\documents\mmorpg\client\source\rendermodule.hpp
+	"DataModule.hpp"
+	"UtilityModule.hpp"
+	"SpriteDrawQueueClass.hpp"
+
+1362595541 source:c:\users\ison\documents\mmorpg\client\source\client.cpp
+	"Client.hpp"
+	<windows.h>
+	<conio.h>
+	"global.hpp"
+	"utility.hpp"
+	"benchmark.hpp"
+	"SpriteDrawQueueClass.hpp"
+	"DataStream.hpp"
+	"Shaders.hpp"
+	"RichText.hpp"
+
+1348389014 c:\users\ison\documents\mmorpg\client\source\client.hpp
+	<OpenLayer.hpp>
+	"DataModule.hpp"
+	"UtilityModule.hpp"
+	"LogicModule.hpp"
+	"RenderModule.hpp"
+	"NetworkModule.hpp"
+
+1343689035 c:\users\ison\documents\mmorpg\client\source\benchmark.hpp
+	<ctime>
+	"global.hpp"
+
+1362657143 source:c:\users\ison\documents\mmorpg\client\source\main.cpp
+	"Master.hpp"
+	"main.hpp"
+	"GL/glu.h"
+	"SFML/Window.hpp"
+
+1347629110 c:\users\ison\documents\mmorpg\client\source\guicontrols.hpp
+	<vector>
+	<utility>
+	<string>
+	<cstring>
+	<SFML/System.hpp>
+	"global.hpp"
+
+1362594395 source:c:\users\ison\documents\mmorpg\client\source\guicontrols.cpp
+	"GUIControls.hpp"
+	<SFML/OpenGL.hpp>
+
+1360852366 c:\users\ison\documents\mmorpg\client\source\shaders.hpp
+	"global.hpp"
+	"Shaders/LightToLightDiffuseMap.hpp"
+	"Shaders/LightToLightSpecularMap.hpp"
+	"Shaders/PostProcess.hpp"
+	"Shaders/TileTransition.hpp"
+	"Shaders/Water.hpp"
+
+1362614112 c:\users\ison\documents\mmorpg\client\source\container.hpp
+	"global.hpp"
+
+1357496890 c:\users\ison\documents\mmorpg\client\source\binpacker.hpp
+	<vector>
+
+1357497494 source:c:\users\ison\documents\mmorpg\client\source\binpacker.cpp
+	"BinPacker.hpp"
+	<algorithm>
+	<cassert>
+
+1357749321 source:c:\users\ison\documents\mmorpg\client\source\texturepacker.cpp
+	"TexturePacker.hpp"
+
+1357749275 c:\users\ison\documents\mmorpg\client\source\texturepacker.hpp
+	"global.hpp"
+	<vector>
+	<set>
+
+1357745362 c:\users\ison\documents\mmorpg\client\source\textureatlas.hpp
+	<SFML/Graphics.hpp>
+	<vector>
+	"container.hpp"
+
+1357743317 c:\users\ison\documents\mmorpg\client\source\texturepacker.h
+
+1357783603 source:c:\users\ison\documents\mmorpg\client\source\textureatlas.cpp
+	"TextureAtlas.hpp"
+	"TexturePacker.hpp"
+	"global.hpp"
+
+1360851961 c:\users\ison\documents\mmorpg\client\source\shaders\lighttolightdiffusemap.hpp
+
+1360852026 c:\users\ison\documents\mmorpg\client\source\shaders\lighttolightspecularmap.hpp
+
+1361380918 c:\users\ison\documents\mmorpg\client\source\shaders\postprocess.hpp
+
+1360852348 c:\users\ison\documents\mmorpg\client\source\shaders\tiletransition.hpp
+
+1360852177 c:\users\ison\documents\mmorpg\client\source\shaders\water.hpp
+
+1360951255 c:\users\ison\documents\mmorpg\client\source\richtext.hpp
+	<SFML/Graphics.hpp>
+
+1362396654 c:\users\ison\documents\mmorpg\client\source\newcode.cpp
+	"Classes.hpp"
+	"ReferenceContainer.hpp"
+
+1362396525 c:\users\ison\documents\mmorpg\client\source\referencecontainer.hpp
+	"global.hpp"
+
+1362598380 c:\users\ison\documents\mmorpg\client\source\newcode.hpp
+	"container.hpp"
+	"Classes.hpp"
+	"ReferenceContainer.hpp"
+	"Packets.hpp"
+	"Network.hpp"
+
+1363114853 source:c:\users\ison\documents\mmorpg\client\source\newcode.cpp
+	"NewCode.hpp"
+
+1363124201 c:\users\ison\documents\mmorpg\client\source\packets.hpp
+	<utility>
+	"Packets/LogIn.hpp"
+	"Packets/CharacterPosition.hpp"
+	"Packets/ObjectChangeOnGround.hpp"
+	"Packets/ObjectChangeInInventory.hpp"
+	"Packets/ObjectChangeOnSlot.hpp"
+	"Packets/CharacterParams.hpp"
+	"Packets/CharacterLostSight.hpp"
+	"Packets/Shot.hpp"
+	"Packets/GrenadeLauncherShot.hpp"
+	"Packets/GrenadeThrow.hpp"
+	"Packets/ProjectileHit.hpp"
+	"Packets/CharacterParamChange.hpp"
+	"Packets/Build.hpp"
+	"Packets/ChangeObjectPlaceRequest.hpp"
+	"Packets/ServerMessage.hpp"
+	"Packets/LocalChatMessage.hpp"
+	"Packets/GlobalChatMessage.hpp"
+	"Packets/PrivateChatMessage.hpp"
+	"Packets/PrivateChatRequest.hpp"
+	"Packets/CharacterSlotObjectChange.hpp"
+	"Packets/DayTime.hpp"
+	"Packets/Weather.hpp"
+	"Packets/StartTalkWithNPC.hpp"
+	"Packets/ChooseTalkOption.hpp"
+	"Packets/CurrentDialogueBlock.hpp"
+	"Packets/TradeWithNPCObjectsList.hpp"
+	"Packets/TradeWithNPCBuyObject.hpp"
+	"Packets/QuestProgressChange.hpp"
+	"Packets/EndCurrentNPCInteraction.hpp"
+
+1362605431 c:\users\ison\documents\mmorpg\client\source\packets\login.hpp
+	<enet/enet.h>
+	<string>
+	"Packet.hpp"
+
+1362847702 c:\users\ison\documents\mmorpg\client\source\packets\characterposition.hpp
+	<enet/enet.h>
+	<string>
+	"Packet.hpp"
+
+1362426034 c:\users\ison\documents\mmorpg\client\source\\newcode.hpp
+	"container.hpp"
+	"Classes.hpp"
+	"ReferenceContainer.hpp"
+	"Packets.hpp"
+
+1362614112 c:\users\ison\documents\mmorpg\client\source\\container.hpp
+	"global.hpp"
+
+1363123560 c:\users\ison\documents\mmorpg\client\source\\global.hpp
+	<enet/enet.h>
+	<cmath>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	<windows.h>
+	<audiere.h>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1363219296 c:\users\ison\documents\mmorpg\client\source\\classes.hpp
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<string>
+	<list>
+	"global.hpp"
+	"GUIControls.hpp"
+	"Timer.hpp"
+
+1347629110 c:\users\ison\documents\mmorpg\client\source\\guicontrols.hpp
+	<vector>
+	<utility>
+	<string>
+	<cstring>
+	<SFML/System.hpp>
+	"global.hpp"
+
+1362396525 c:\users\ison\documents\mmorpg\client\source\\referencecontainer.hpp
+	"global.hpp"
+
+1363124201 c:\users\ison\documents\mmorpg\client\source\\packets.hpp
+	<utility>
+	"Packets/LogIn.hpp"
+	"Packets/CharacterPosition.hpp"
+	"Packets/ObjectChangeOnGround.hpp"
+	"Packets/ObjectChangeInInventory.hpp"
+	"Packets/ObjectChangeOnSlot.hpp"
+	"Packets/CharacterParams.hpp"
+	"Packets/CharacterLostSight.hpp"
+	"Packets/Shot.hpp"
+	"Packets/GrenadeLauncherShot.hpp"
+	"Packets/GrenadeThrow.hpp"
+	"Packets/ProjectileHit.hpp"
+	"Packets/CharacterParamChange.hpp"
+	"Packets/Build.hpp"
+	"Packets/ChangeObjectPlaceRequest.hpp"
+	"Packets/ServerMessage.hpp"
+	"Packets/LocalChatMessage.hpp"
+	"Packets/GlobalChatMessage.hpp"
+	"Packets/PrivateChatMessage.hpp"
+	"Packets/PrivateChatRequest.hpp"
+	"Packets/CharacterSlotObjectChange.hpp"
+	"Packets/DayTime.hpp"
+	"Packets/Weather.hpp"
+	"Packets/StartTalkWithNPC.hpp"
+	"Packets/ChooseTalkOption.hpp"
+	"Packets/CurrentDialogueBlock.hpp"
+	"Packets/TradeWithNPCObjectsList.hpp"
+	"Packets/TradeWithNPCBuyObject.hpp"
+	"Packets/QuestProgressChange.hpp"
+	"Packets/EndCurrentNPCInteraction.hpp"
+
+1362605431 c:\users\ison\documents\mmorpg\client\source\\packets\login.hpp
+	<enet/enet.h>
+	<string>
+	"Packet.hpp"
+
+1362847702 c:\users\ison\documents\mmorpg\client\source\\packets\characterposition.hpp
+	<enet/enet.h>
+	<string>
+	"Packet.hpp"
+
+1362505803 c:\users\ison\documents\mmorpg\client\source\packets\packet.hpp
+
+1363189646 source:c:\users\ison\documents\mmorpg\client\source\packets\characterposition.cpp
+	"CharacterPosition.hpp"
+	<sstream>
+	"Master.hpp"
+
+1363191899 source:c:\users\ison\documents\mmorpg\client\source\packets\login.cpp
+	"LogIn.hpp"
+	<sstream>
+	"global.hpp"
+	"Master.hpp"
+
+1363132205 source:c:\users\ison\documents\mmorpg\client\source\network.cpp
+	"Network.hpp"
+	"global.hpp"
+	"Master.hpp"
+
+1362660006 c:\users\ison\documents\mmorpg\client\source\network.hpp
+	<enet/enet.h>
+	<string>
+	"Packets.hpp"
+
+1363192130 source:c:\users\ison\documents\mmorpg\client\source\master.cpp
+	"Master.hpp"
+	<windows.h>
+	<conio.h>
+	"global.hpp"
+	"utility.hpp"
+	"benchmark.hpp"
+	"SpriteDrawQueueClass.hpp"
+	"DataStream.hpp"
+	"Shaders.hpp"
+	"RichText.hpp"
+
+1363450791 c:\users\ison\documents\mmorpg\client\source\master.hpp
+	"DataModule.hpp"
+	"UtilityModule.hpp"
+	"LogicModule.hpp"
+	"RenderModule.hpp"
+	"World.hpp"
+	"Network.hpp"
+	"Player.hpp"
+
+1362663880 c:\users\ison\documents\mmorpg\client\source\timer.hpp
+	"global.hpp"
+
+1363184314 source:c:\users\ison\documents\mmorpg\client\source\character.cpp
+	"Classes.hpp"
+	"global.hpp"
+	"Master.hpp"
+
+1363192075 c:\users\ison\documents\mmorpg\client\source\player.hpp
+	"global.hpp"
+
+1363124088 c:\users\ison\documents\mmorpg\client\source\packets\shot.hpp
+	<enet/enet.h>
+	<string>
+	"Packet.hpp"
+
+1363207132 source:c:\users\ison\documents\mmorpg\client\source\packets\shot.cpp
+	"Shot.hpp"
+	<sstream>
+	"Master.hpp"
+
+1363206307 source:c:\users\ison\documents\mmorpg\client\source\player.cpp
+	"Player.hpp"
+	"Master.hpp"
+
+1363219111 c:\users\ison\documents\mmorpg\client\source\world.hpp
+	"container.hpp"
+	"Classes.hpp"
+
+1363120636 c:\users\ison\documents\mmorpg\client\source\packets\objectchangeonground.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363124023 c:\users\ison\documents\mmorpg\client\source\packets\objectchangeininventory.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363124034 c:\users\ison\documents\mmorpg\client\source\packets\objectchangeonslot.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363123926 c:\users\ison\documents\mmorpg\client\source\packets\characterparams.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363123906 c:\users\ison\documents\mmorpg\client\source\packets\characterlostsight.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363125614 c:\users\ison\documents\mmorpg\client\source\packets\grenadelaunchershot.hpp
+	<enet/enet.h>
+	<string>
+	"Packet.hpp"
+
+1363125768 c:\users\ison\documents\mmorpg\client\source\packets\grenadethrow.hpp
+	<enet/enet.h>
+	<string>
+	"Packet.hpp"
+
+1363124062 c:\users\ison\documents\mmorpg\client\source\packets\projectilehit.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363123915 c:\users\ison\documents\mmorpg\client\source\packets\characterparamchange.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363123890 c:\users\ison\documents\mmorpg\client\source\packets\build.hpp
+	"Packet.hpp"
+
+1363124423 c:\users\ison\documents\mmorpg\client\source\packets\changeobjectplacerequest.hpp
+	<string>
+	"Packet.hpp"
+
+1363124085 c:\users\ison\documents\mmorpg\client\source\packets\servermessage.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363125971 c:\users\ison\documents\mmorpg\client\source\packets\localchatmessage.hpp
+	<enet/enet.h>
+	<string>
+	"Packet.hpp"
+
+1363125379 c:\users\ison\documents\mmorpg\client\source\packets\globalchatmessage.hpp
+	<enet/enet.h>
+	<string>
+	"Packet.hpp"
+
+1363126412 c:\users\ison\documents\mmorpg\client\source\packets\privatechatmessage.hpp
+	<enet/enet.h>
+	<string>
+	"Packet.hpp"
+
+1363126579 c:\users\ison\documents\mmorpg\client\source\packets\privatechatrequest.hpp
+	<string>
+	"Packet.hpp"
+
+1363123941 c:\users\ison\documents\mmorpg\client\source\packets\characterslotobjectchange.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363123983 c:\users\ison\documents\mmorpg\client\source\packets\daytime.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363124128 c:\users\ison\documents\mmorpg\client\source\packets\weather.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363126917 c:\users\ison\documents\mmorpg\client\source\packets\starttalkwithnpc.hpp
+	<string>
+	"Packet.hpp"
+
+1363125006 c:\users\ison\documents\mmorpg\client\source\packets\choosetalkoption.hpp
+	<string>
+	"Packet.hpp"
+
+1363123977 c:\users\ison\documents\mmorpg\client\source\packets\currentdialogueblock.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363127019 c:\users\ison\documents\mmorpg\client\source\packets\tradewithnpcbuyobject.hpp
+	<string>
+	"Packet.hpp"
+
+1363124070 c:\users\ison\documents\mmorpg\client\source\packets\questprogresschange.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363123995 c:\users\ison\documents\mmorpg\client\source\packets\endcurrentnpcinteraction.hpp
+	<string>
+	"Packet.hpp"
+
+1363111810 source:c:\users\ison\documents\mmorpg\client\source\world.cpp
+	"World.hpp"
+
+1363123254 c:\users\ison\documents\mmorpg\client\source\packets\tradewithnpcobjectslist.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363123777 source:c:\users\ison\documents\mmorpg\client\source\packets\build.cpp
+	"Build.hpp"
+
+1363124530 source:c:\users\ison\documents\mmorpg\client\source\packets\changeobjectplacerequest.cpp
+	"ChangeObjectPlaceRequest.hpp"
+	<sstream>
+
+1363184846 source:c:\users\ison\documents\mmorpg\client\source\packets\characterlostsight.cpp
+	"CharacterLostSight.hpp"
+	"Master.hpp"
+
+1363450791 c:\users\ison\documents\mmorpg\client\source\\master.hpp
+	"DataModule.hpp"
+	"UtilityModule.hpp"
+	"LogicModule.hpp"
+	"RenderModule.hpp"
+	"World.hpp"
+	"Network.hpp"
+	"Player.hpp"
+
+1363182373 c:\users\ison\documents\mmorpg\client\source\\datamodule.hpp
+	"Classes.hpp"
+	"SpriteDrawQueueClass.hpp"
+	"container.hpp"
+	"TextureAtlas.hpp"
+
+1362663880 c:\users\ison\documents\mmorpg\client\source\\timer.hpp
+	"global.hpp"
+
+1349442697 c:\users\ison\documents\mmorpg\client\source\\spritedrawqueueclass.hpp
+	<SFML/Graphics.hpp>
+	<vector>
+	<algorithm>
+	"global.hpp"
+
+1357745362 c:\users\ison\documents\mmorpg\client\source\\textureatlas.hpp
+	<SFML/Graphics.hpp>
+	<vector>
+	"container.hpp"
+
+1363132215 c:\users\ison\documents\mmorpg\client\source\\utilitymodule.hpp
+	"DataModule.hpp"
+
+1362595401 c:\users\ison\documents\mmorpg\client\source\\logicmodule.hpp
+	"DataModule.hpp"
+	"UtilityModule.hpp"
+
+1362941200 c:\users\ison\documents\mmorpg\client\source\\rendermodule.hpp
+	"DataModule.hpp"
+	"UtilityModule.hpp"
+	"SpriteDrawQueueClass.hpp"
+
+1362659923 c:\users\ison\documents\mmorpg\client\source\\networkmodule.hpp
+	"DataModule.hpp"
+	"UtilityModule.hpp"
+
+1363219111 c:\users\ison\documents\mmorpg\client\source\\world.hpp
+	"container.hpp"
+	"Classes.hpp"
+
+1362660006 c:\users\ison\documents\mmorpg\client\source\\network.hpp
+	<enet/enet.h>
+	<string>
+	"Packets.hpp"
+
+1362505803 c:\users\ison\documents\mmorpg\client\source\\packets\packet.hpp
+
+1363120636 c:\users\ison\documents\mmorpg\client\source\\packets\objectchangeonground.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363124023 c:\users\ison\documents\mmorpg\client\source\\packets\objectchangeininventory.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363124034 c:\users\ison\documents\mmorpg\client\source\\packets\objectchangeonslot.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363123926 c:\users\ison\documents\mmorpg\client\source\\packets\characterparams.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363123906 c:\users\ison\documents\mmorpg\client\source\\packets\characterlostsight.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363124088 c:\users\ison\documents\mmorpg\client\source\\packets\shot.hpp
+	<enet/enet.h>
+	<string>
+	"Packet.hpp"
+
+1363125614 c:\users\ison\documents\mmorpg\client\source\\packets\grenadelaunchershot.hpp
+	<enet/enet.h>
+	<string>
+	"Packet.hpp"
+
+1363125768 c:\users\ison\documents\mmorpg\client\source\\packets\grenadethrow.hpp
+	<enet/enet.h>
+	<string>
+	"Packet.hpp"
+
+1363124062 c:\users\ison\documents\mmorpg\client\source\\packets\projectilehit.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363123915 c:\users\ison\documents\mmorpg\client\source\\packets\characterparamchange.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363123890 c:\users\ison\documents\mmorpg\client\source\\packets\build.hpp
+	"Packet.hpp"
+
+1363124423 c:\users\ison\documents\mmorpg\client\source\\packets\changeobjectplacerequest.hpp
+	<string>
+	"Packet.hpp"
+
+1363124085 c:\users\ison\documents\mmorpg\client\source\\packets\servermessage.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363125971 c:\users\ison\documents\mmorpg\client\source\\packets\localchatmessage.hpp
+	<enet/enet.h>
+	<string>
+	"Packet.hpp"
+
+1363125379 c:\users\ison\documents\mmorpg\client\source\\packets\globalchatmessage.hpp
+	<enet/enet.h>
+	<string>
+	"Packet.hpp"
+
+1363126412 c:\users\ison\documents\mmorpg\client\source\\packets\privatechatmessage.hpp
+	<enet/enet.h>
+	<string>
+	"Packet.hpp"
+
+1363126579 c:\users\ison\documents\mmorpg\client\source\\packets\privatechatrequest.hpp
+	<string>
+	"Packet.hpp"
+
+1363123941 c:\users\ison\documents\mmorpg\client\source\\packets\characterslotobjectchange.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363123983 c:\users\ison\documents\mmorpg\client\source\\packets\daytime.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363124128 c:\users\ison\documents\mmorpg\client\source\\packets\weather.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363126917 c:\users\ison\documents\mmorpg\client\source\\packets\starttalkwithnpc.hpp
+	<string>
+	"Packet.hpp"
+
+1363125006 c:\users\ison\documents\mmorpg\client\source\\packets\choosetalkoption.hpp
+	<string>
+	"Packet.hpp"
+
+1363123977 c:\users\ison\documents\mmorpg\client\source\\packets\currentdialogueblock.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363123254 c:\users\ison\documents\mmorpg\client\source\\packets\tradewithnpcobjectslist.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363127019 c:\users\ison\documents\mmorpg\client\source\\packets\tradewithnpcbuyobject.hpp
+	<string>
+	"Packet.hpp"
+
+1363124070 c:\users\ison\documents\mmorpg\client\source\\packets\questprogresschange.hpp
+	<enet/enet.h>
+	"Packet.hpp"
+
+1363123995 c:\users\ison\documents\mmorpg\client\source\\packets\endcurrentnpcinteraction.hpp
+	<string>
+	"Packet.hpp"
+
+1363192075 c:\users\ison\documents\mmorpg\client\source\\player.hpp
+	"global.hpp"
+
+1363186990 source:c:\users\ison\documents\mmorpg\client\source\packets\characterparamchange.cpp
+	"CharacterParamChange.hpp"
+	"Master.hpp"
+
+1363189479 source:c:\users\ison\documents\mmorpg\client\source\packets\characterparams.cpp
+	"CharacterParams.hpp"
+	"Master.hpp"
+
+1363189536 source:c:\users\ison\documents\mmorpg\client\source\packets\characterslotobjectchange.cpp
+	"CharacterSlotObjectChange.hpp"
+	"Master.hpp"
+
+1363125034 source:c:\users\ison\documents\mmorpg\client\source\packets\choosetalkoption.cpp
+	"ChooseTalkOption.hpp"
+	<sstream>
+
+1363125160 source:c:\users\ison\documents\mmorpg\client\source\packets\daytime.cpp
+	"DayTime.hpp"
+	"Master.hpp"
+
+1363125179 source:c:\users\ison\documents\mmorpg\client\source\packets\endcurrentnpcinteraction.cpp
+	"EndCurrentNPCInteraction.hpp"
+	<sstream>
+
+1363125368 source:c:\users\ison\documents\mmorpg\client\source\packets\globalchatmessage.cpp
+	"GlobalChatMessage.hpp"
+	<sstream>
+	"Master.hpp"
+
+1363127263 source:c:\users\ison\documents\mmorpg\client\source\packets\currentdialogueblock.cpp
+	"CurrentDialogueBlock.hpp"
+	"Master.hpp"
+
+1363189772 source:c:\users\ison\documents\mmorpg\client\source\packets\grenadelaunchershot.cpp
+	"GrenadeLauncherShot.hpp"
+	<sstream>
+	"Master.hpp"
+
+1363189784 source:c:\users\ison\documents\mmorpg\client\source\packets\grenadethrow.cpp
+	"GrenadeThrow.hpp"
+	<sstream>
+	"Master.hpp"
+
+1363189896 source:c:\users\ison\documents\mmorpg\client\source\packets\localchatmessage.cpp
+	"LocalChatMessage.hpp"
+	<sstream>
+	"Master.hpp"
+
+1363192004 source:c:\users\ison\documents\mmorpg\client\source\packets\objectchangeininventory.cpp
+	"ObjectChangeInInventory.hpp"
+	"Master.hpp"
+
+1363127460 source:c:\users\ison\documents\mmorpg\client\source\packets\objectchangeonground.cpp
+	"ObjectChangeOnGround.hpp"
+	"Master.hpp"
+
+1363192204 source:c:\users\ison\documents\mmorpg\client\source\packets\objectchangeonslot.cpp
+	"ObjectChangeOnSlot.hpp"
+	"MAster.hpp"
+
+1363194192 source:c:\users\ison\documents\mmorpg\client\source\packets\privatechatmessage.cpp
+	"PrivateChatMessage.hpp"
+	<sstream>
+	"Master.hpp"
+
+1363126569 source:c:\users\ison\documents\mmorpg\client\source\packets\privatechatrequest.cpp
+	"PrivateChatRequest.hpp"
+	<sstream>
+
+1363197118 source:c:\users\ison\documents\mmorpg\client\source\packets\projectilehit.cpp
+	"ProjectileHit.hpp"
+	"Master.hpp"
+
+1363127507 source:c:\users\ison\documents\mmorpg\client\source\packets\questprogresschange.cpp
+	"QuestProgressChange.hpp"
+	"Master.hpp"
+
+1363127514 source:c:\users\ison\documents\mmorpg\client\source\packets\servermessage.cpp
+	"ServerMessage.hpp"
+	"Master.hpp"
+
+1363127542 source:c:\users\ison\documents\mmorpg\client\source\packets\starttalkwithnpc.cpp
+	"StartTalkWithNPC.hpp"
+	<sstream>
+
+1363127010 source:c:\users\ison\documents\mmorpg\client\source\packets\tradewithnpcbuyobject.cpp
+	"TradeWithNPCBuyObject.hpp"
+	<sstream>
+
+1363127564 source:c:\users\ison\documents\mmorpg\client\source\packets\tradewithnpcobjectslist.cpp
+	"TradeWithNPCObjectsList.hpp"
+	"Master.hpp"
+
+1363127126 source:c:\users\ison\documents\mmorpg\client\source\packets\weather.cpp
+	"Weather.hpp"
+	"Master.hpp"
+

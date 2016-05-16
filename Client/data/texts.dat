@@ -1,0 +1,58 @@
+0 Hello sir. How can I help you?
+1 I wanted to ask...
+2 Just passing by.
+10 What would you like to know?
+11 How is this place called?
+12 Where are your headquaters?
+13 Where is the trade center?
+14 Where can I buy equipment?
+15 Where can I find a job?
+16 On the second thought, I'm fine.
+17 Thanks. That's all I wanted to know.
+20 <To be edited>
+21 Northern part of this town. A big L-shaped building.
+22 Right in the middle of this town. I'm sure you will notice it easily.
+23 Western part of this town.
+24 A job? We have many problems with bandits. You can ask our chief in our headquaters.
+30 Thanks.
+31 Anything else?
+100 Hey. What can I do for ya'?
+101 Can we trade?
+102 Nothing at all. Just looking.
+200 Oh, finally we've met. Welcome to our humble place, do you enjoy your stay?
+201 Do we know each other?
+202 I was told there's a job available here.
+210 Well, we get reports about every newcomer. You know... Too many hostiles messing around, we need to make sure our citizens are safe.
+211 I understand. As you've probably heard we've been having some problems with bandits for a few years now. They keep terrorizing us.
+220 What can I do to help?
+221 Go on...
+222 And?
+230 I need to make sure they won't attack our town soon. Are you interested in helping us? Someone like you would be very useful for us.
+231 That's why I'm here.
+232 No thanks. Maybe later.
+240 They came too close to our town, go and eliminate some of them. This will scare them and prevent from attacks. They are hiding in their hideout north-west from here.
+241 How much do you pay?
+250 I can offer you 500$ for this task.
+251 Fine.
+252 Not interested. Waste of time.
+300 Are you done yet?
+301 Yeah
+302 No, working on it.
+310 Great job. That's really good to know that we have a new great soldier like you. However I have another task for you. Would you like to hear about it?
+311 Of course.
+312 Not now. I need to rest.
+320 Ok. Come back when you are ready.
+321 Bye.
+330 We have recently discovered their new outpost. East from here.
+331 Go on.
+340 I want you to go there and kill their local leader, in return you will be paid 1000$. Are you interested?
+341 Sure.
+342 No thanks.
+400 Sup?
+401 Utilities
+402 Scripts tests
+403 Quest tests
+404 Trade test
+405 Done
+406 AddExp
+407 AddMoney

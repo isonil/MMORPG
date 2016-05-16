@@ -1,0 +1,9 @@
+/Client/obj/
+/Launcher/obj/
+/SDK/obj/
+/Server/obj/
+/Updater/obj/
+*.exe
+*.dll
+/backup/
+/work/
